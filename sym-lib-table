@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name pocketbeaglebase-rescue)(type Legacy)(uri ${KIPRJMOD}/pocketbeaglebase-rescue.lib)(options "")(descr ""))
+)

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IC_controller_Ethernet:LAN9514 U2
+L pocketbeaglebase-rescue:LAN9514-IC_controller_Ethernet U2
 U 1 1 5FC3B911
 P 2250 2700
 F 0 "U2" H 1850 1450 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf" H 2350 2400 
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_controller_Ethernet:LAN9514 U2
+L pocketbeaglebase-rescue:LAN9514-IC_controller_Ethernet U2
 U 2 1 5FC3CBF0
 P 2000 6200
 F 0 "U2" H 2000 7467 50  0000 C CNN
@@ -413,7 +413,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 1400 1850 1300
 $Comp
-L IC_loadswitch:MIC2026 U3
+L pocketbeaglebase-rescue:MIC2026-IC_loadswitch U3
 U 1 1 5FC814BF
 P 5450 1850
 F 0 "U3" H 5450 2267 50  0000 C CNN
@@ -640,7 +640,7 @@ F 3 "" H 10500 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L usb_connector_header:USB_2.0_Connector P1
+L pocketbeaglebase-rescue:USB_2.0_Connector-usb_connector_header P1
 U 1 1 5FDC06C1
 P 9200 1850
 F 0 "P1" H 8600 2150 60  0000 C CNN
@@ -1387,7 +1387,7 @@ F 3 "" H 5750 6950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_memory_flash:93LC66 U5
+L pocketbeaglebase-rescue:93LC66-IC_memory_flash U5
 U 1 1 5FD60BAB
 P 5300 7200
 F 0 "U5" H 5300 7575 50  0000 C CNN
@@ -1462,7 +1462,7 @@ nPWR2
 Text Label 10250 1700 0    50   ~ 0
 nPWR3
 $Comp
-L mechanical-connectors:RJ45-TRANSFO-2 J1
+L pocketbeaglebase-rescue:RJ45-TRANSFO-2-mechanical-connectors J1
 U 1 1 5FCFD3AD
 P 10250 5250
 F 0 "J1" H 10000 5965 50  0000 C CNN
@@ -1482,7 +1482,7 @@ $Comp
 L devices:R_0603 R1
 U 1 1 5FFD6ECD
 P 1150 5600
-F 0 "R1" V 1100 5500 50  0000 C CNN
+F 0 "R1" V 1100 5450 50  0000 C CNN
 F 1 "10k" V 1100 5750 50  0000 C CNN
 F 2 "resistors:R_0603" H 1150 5450 50  0001 C CNN
 F 3 "" H 1150 5600 50  0000 C CNN
