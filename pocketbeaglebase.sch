@@ -199,7 +199,7 @@ Wire Wire Line
 	3800 4100 4350 4100
 Text GLabel 4350 4000 2    50   Input ~ 0
 CAN0_RX
-Text GLabel 4350 4100 2    50   BiDi ~ 0
+Text GLabel 4350 4100 2    50   Output ~ 0
 CAN0_TX
 NoConn ~ 3800 5200
 NoConn ~ 1800 5600
@@ -772,62 +772,6 @@ F 1 "+3V3" H 3365 7073 50  0000 C CNN
 F 2 "" H 3350 6900 50  0000 C CNN
 F 3 "" H 3350 6900 50  0000 C CNN
 	1    3350 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L devices:R_0603 R21
-U 1 1 5FDDD530
-P 1500 7200
-F 0 "R21" H 1559 7246 50  0000 L CNN
-F 1 "10k" H 1559 7155 50  0000 L CNN
-F 2 "resistors:R_0603" H 1500 7050 50  0001 C CNN
-F 3 "" H 1500 7200 50  0000 C CNN
-	1    1500 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L devices:R_0603 R22
-U 1 1 5FDDD536
-P 1800 7200
-F 0 "R22" H 1859 7246 50  0000 L CNN
-F 1 "10k" H 1859 7155 50  0000 L CNN
-F 2 "resistors:R_0603" H 1800 7050 50  0001 C CNN
-F 3 "" H 1800 7200 50  0000 C CNN
-	1    1800 7200
-	1    0    0    -1  
-$EndComp
-Text GLabel 1300 7350 0    50   BiDi ~ 0
-SDA2
-Text GLabel 1300 7450 0    50   Input ~ 0
-SCL2
-Wire Wire Line
-	1500 7300 1500 7350
-Wire Wire Line
-	1500 7350 1300 7350
-Wire Wire Line
-	1300 7450 1800 7450
-Wire Wire Line
-	1800 7450 1800 7300
-Wire Wire Line
-	1500 7100 1500 7000
-Wire Wire Line
-	1500 7000 1800 7000
-Wire Wire Line
-	1800 7000 1800 7100
-Wire Wire Line
-	1800 7000 1800 6900
-Connection ~ 1800 7000
-$Comp
-L power-supply:+3V3 #PWR?
-U 1 1 5FDDD547
-P 1800 6900
-AR Path="/5FCC65EC/5FDDD547" Ref="#PWR?"  Part="1" 
-AR Path="/5FDDD547" Ref="#PWR0148"  Part="1" 
-F 0 "#PWR0148" H 1800 6750 50  0001 C CNN
-F 1 "+3V3" H 1815 7073 50  0000 C CNN
-F 2 "" H 1800 6900 50  0000 C CNN
-F 3 "" H 1800 6900 50  0000 C CNN
-	1    1800 6900
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6700 3950
