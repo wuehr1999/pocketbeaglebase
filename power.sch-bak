@@ -579,9 +579,9 @@ Wire Wire Line
 	5950 1900 5950 1850
 Connection ~ 5950 1900
 Wire Wire Line
-	4550 2550 5250 2550
+	4550 2550 4850 2550
 Wire Wire Line
-	4550 1900 5250 1900
+	4550 1900 4850 1900
 Wire Wire Line
 	5250 1900 5950 1900
 Wire Wire Line
@@ -669,4 +669,23 @@ F 3 "" H 8600 2000 50  0000 C CNN
 	1    8600 2000
 	1    0    0    -1  
 $EndComp
+$Comp
+L devices:TVS D?
+U 1 1 5FD478B4
+P 4850 2200
+F 0 "D?" V 4759 2288 50  0000 L CNN
+F 1 "TVS" V 4850 2288 50  0000 L CNN
+F 2 "diodes:DO-214AB" V 4941 2288 50  0000 L CNN
+F 3 "" H 4850 2200 50  0000 C CNN
+	1    4850 2200
+	0    1    1    0   
+$EndComp
+Connection ~ 4850 1900
+Wire Wire Line
+	4850 1900 5250 1900
+Wire Wire Line
+	4850 2500 4850 2550
+Connection ~ 4850 2550
+Wire Wire Line
+	4850 2550 5250 2550
 $EndSCHEMATC
