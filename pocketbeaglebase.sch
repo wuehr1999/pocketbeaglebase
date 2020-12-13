@@ -120,15 +120,6 @@ Wire Wire Line
 	3950 2450 4050 2450
 Wire Wire Line
 	4050 2450 4050 2500
-Wire Wire Line
-	3800 2100 3850 2100
-Wire Wire Line
-	3850 2100 3850 2200
-Wire Wire Line
-	3850 2200 3800 2200
-Wire Wire Line
-	3850 2200 4350 2200
-Connection ~ 3850 2200
 Text GLabel 4350 2200 2    50   Output ~ 0
 USB_VBUS
 $Sheet
@@ -207,7 +198,6 @@ NoConn ~ 1800 5800
 NoConn ~ 3400 1700
 NoConn ~ 3300 1700
 NoConn ~ 2600 1700
-NoConn ~ 2400 1700
 $Comp
 L pocketbeaglebase-rescue:BEAGLE_PocketBeagle-MODULE_compute U1
 U 1 1 5FC3A8A4
@@ -776,4 +766,44 @@ F 3 "" H 3350 6900 50  0000 C CNN
 $EndComp
 NoConn ~ 6700 3950
 NoConn ~ 6700 4050
+$Comp
+L devices:Label L5
+U 1 1 5FD595A3
+P 6300 1050
+F 0 "L5" H 6528 1156 60  0000 L CNN
+F 1 "Label" H 6528 1050 60  0000 L CNN
+F 2 "labels:Bot" H 6528 944 60  0000 L CNN
+F 3 "" H 6300 1050 60  0000 C CNN
+	1    6300 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:Label L6
+U 1 1 5FD59F9E
+P 7300 1050
+F 0 "L6" H 7528 1156 60  0000 L CNN
+F 1 "Label" H 7528 1050 60  0000 L CNN
+F 2 "labels:Top" H 7528 944 60  0000 L CNN
+F 3 "" H 7300 1050 60  0000 C CNN
+	1    7300 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:Label L4
+U 1 1 5FD5A54E
+P 4700 1050
+F 0 "L4" H 4928 1156 60  0000 L CNN
+F 1 "Label" H 4928 1050 60  0000 L CNN
+F 2 "labels:jecc_logo_7.2x2.2" H 4928 944 60  0000 L CNN
+F 3 "" H 4700 1050 60  0000 C CNN
+	1    4700 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1700 2400 1350
+Wire Wire Line
+	3800 2200 4350 2200
+NoConn ~ 3800 2100
+Text GLabel 2400 1350 1    50   Output ~ 0
+USB_VBUS
 $EndSCHEMATC
