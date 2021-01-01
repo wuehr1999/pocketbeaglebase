@@ -1,6 +1,6 @@
 # pocketbeaglebase
 
-Add many useful features to Your PocketBeagle.
+Add lots of useful features to Your PocketBeagle.
 
 ![pocketbeaglebase in use](/docs/images/setup.jpg)
 
