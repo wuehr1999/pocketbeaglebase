@@ -120,17 +120,6 @@ Wire Wire Line
 	3950 2450 4050 2450
 Wire Wire Line
 	4050 2450 4050 2500
-Wire Wire Line
-	3800 2100 3850 2100
-Wire Wire Line
-	3850 2100 3850 2200
-Wire Wire Line
-	3850 2200 3800 2200
-Wire Wire Line
-	3850 2200 4350 2200
-Connection ~ 3850 2200
-Text GLabel 4350 2200 2    50   Output ~ 0
-USB_VBUS
 $Sheet
 S 9300 2050 1600 1000
 U 5FCC65EC
@@ -207,7 +196,6 @@ NoConn ~ 1800 5800
 NoConn ~ 3400 1700
 NoConn ~ 3300 1700
 NoConn ~ 2600 1700
-NoConn ~ 2400 1700
 $Comp
 L pocketbeaglebase-rescue:BEAGLE_PocketBeagle-MODULE_compute U1
 U 1 1 5FC3A8A4
@@ -807,6 +795,35 @@ F 1 "Label" H 4928 1050 60  0000 L CNN
 F 2 "labels:jecc_logo_7.2x2.2" H 4928 944 60  0000 L CNN
 F 3 "" H 4700 1050 60  0000 C CNN
 	1    4700 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1700 2400 1550
+Wire Wire Line
+	3800 2200 4350 2200
+NoConn ~ 3800 2100
+$Comp
+L power-supply:+5V #PWR?
+U 1 1 5FF01AE1
+P 2400 1550
+F 0 "#PWR?" H 2400 1400 50  0001 C CNN
+F 1 "+5V" H 2415 1723 50  0000 C CNN
+F 2 "" H 2400 1550 50  0000 C CNN
+F 3 "" H 2400 1550 50  0000 C CNN
+	1    2400 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2200 4350 2050
+$Comp
+L power-supply:+5V #PWR?
+U 1 1 5FF0FE5A
+P 4350 2050
+F 0 "#PWR?" H 4350 1900 50  0001 C CNN
+F 1 "+5V" H 4365 2223 50  0000 C CNN
+F 2 "" H 4350 2050 50  0000 C CNN
+F 3 "" H 4350 2050 50  0000 C CNN
+	1    4350 2050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
