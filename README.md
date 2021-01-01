@@ -15,7 +15,7 @@ Add many useful features to Your PocketBeagle.
 * SPI header
 * GPIO header
 
-## Pinout
+## Connectors
 
 ### SPI1 header (P8)
 
@@ -109,3 +109,32 @@ The termination can be enabled by closing solder jumper P9 on the bottom of the 
 | 2 | 3v3 |
 | 3 | SDA |
 | 4 | SCL |
+
+## PCB
+
+### Toplayer
+
+![toplayer](/docs/images/toplayer.png)
+
+### Bottomlayer
+
+![bottomlayer](/docs/images/bottomlayer.png)
+
+## Resources
+
+### Manuals
+
+* PocketBeagle System Reference Manual: https://github.com/beagleboard/pocketbeagle/wiki/System-Reference-Manual
+* BeagleBone PRU Cookbook: http://beagleboard.org/static/prucookbook/
+
+### Datasheets
+
+* http://ww1.microchip.com/downloads/en/devicedoc/00002306a.pdf
+* https://octavosystems.com/docs/osd335x-sm-datasheet/
+* https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1609524456800
+* https://datasheets.maximintegrated.com/en/ds/MAX3224-MAX3245.pdf
+* https://www.ti.com/lit/ds/symlink/tps54335-2a.pdf?ts=1609516162103&ref_url=https%253A%252F%252Fwww.google.com%252F
+* http://ww1.microchip.com/downloads/en/devicedoc/21712b.pdf
+* https://cdn-reichelt.de/documents/datenblatt/C100/M100_T1D_33E4G_DB_DE.pdf
+
+
