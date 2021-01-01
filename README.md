@@ -73,3 +73,39 @@ Add many useful features to Your PocketBeagle.
 | 38 | IO89 |
 | 39 | AIN6 |
 | 40 | GND |
+
+### RS-232 (UART 0)
+
+| Pin | Function |
+|-----|----------|
+| 1 | TX |
+| 2 | RX |
+| 3 | GND |
+
+### CAN (CAN 0)
+
+| Pin | Function |
+|-----|----------|
+| 1 | CANH |
+| 2 | CANL |
+| 3 | GND |
+
+The termination can be enabled by closing solder jumper P9 on the bottom of the board.
+
+### UART2, UART4, UARTPRU1 over Qwiic (P3, P5, P6)
+
+| Pin | Function |
+|-----|----------|
+| 1 | GND |
+| 2 | 3v3 |
+| 3 | TX |
+| 4 | RX |
+
+### I2C1 over Qwiic (P7)
+
+| Pin | Function |
+|-----|----------|
+| 1 | GND |
+| 2 | 3v3 |
+| 3 | SDA |
+| 4 | SCL |
